@@ -7,6 +7,8 @@
 .bookContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
 }
 
@@ -27,6 +29,15 @@
   padding-bottom: .5rem;
 }
 
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+
 @media screen and (min-width:768px) {
   .bookContainer {
     padding: 3rem;
@@ -36,7 +47,7 @@
 @media screen and (min-width:900px) {
   .bookContainer {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 50%;
     padding: 8rem;
   }
   .bookInfo {

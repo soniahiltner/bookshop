@@ -27,9 +27,12 @@ const Book = () => {
           <p>{book?.synopsis}</p>
           <h3>Género: {book?.category}</h3>
           <h3>Precio: {book?.price}€</h3>
-          <WishListButton item={book} />
+          <div className={styles.btnContainer}>
+            <WishListButton item={book} />
           <br />
           <CartButton item={book} />
+          </div>
+          
         </div>
       </div>
     </div>

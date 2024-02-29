@@ -5,6 +5,7 @@
   background-color: rgba(128, 0, 0, 0.563);
   color: white;
   margin: 0 1rem;
+  margin-bottom: 1rem;
   cursor: pointer;
   width: 100%;
 }

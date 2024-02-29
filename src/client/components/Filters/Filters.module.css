@@ -11,6 +11,7 @@
   align-items: center;
   gap: 1rem;
   padding-top: 0.5rem;
+  padding-left: 1rem;
 }
 
 .filter label {
@@ -38,4 +39,11 @@
   background-color: rgba(166, 215, 119, 0.373);
   border: none;
   outline: none;
+}
+
+/* Media query */
+@media (max-width: 570px) {
+  .filters {
+    height: 6rem;
+  }
 }

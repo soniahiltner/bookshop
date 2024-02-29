@@ -20,7 +20,7 @@ export const BooksProvider = ({ children }) => {
 
 
   //Get books
-  const getBooks = async (page) => {
+  const getBooks = async () => {
     try {
       const response = await fetch(`/api/books?page=${page}`)
       const data = await response.json()
