@@ -1,0 +1,41 @@
+.filters {
+  background-color: rgb(107, 224, 64);
+  border-top: 0.5rem solid black;
+  border-bottom: 0.3rem solid black;
+  height: 4rem;
+}
+
+.formFilters {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.filter label {
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+
+.filter select {
+  padding: 0.5rem;
+  font-size: .9rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgba(199, 225, 174, 0.473);
+  box-shadow: 0 0 0.1rem rgb(194, 181, 181);
+}
+
+.filter select:focus {
+  background-color: rgba(199, 225, 174, 0.473);
+  border: none;
+  outline: none;
+}
+
+.filter option {
+  background-color: rgba(166, 215, 119, 0.373);
+  border: none;
+  outline: none;
+}

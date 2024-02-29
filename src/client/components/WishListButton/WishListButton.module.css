@@ -1,0 +1,14 @@
+.addToWishList,
+.remove {
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+  background-color: rgba(128, 0, 0, 0.563);
+  color: white;
+  margin: 0 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.remove {
+  background-color: rgba(192, 44, 44, 0.973);
+}

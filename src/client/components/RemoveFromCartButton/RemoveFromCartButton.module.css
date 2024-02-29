@@ -1,0 +1,18 @@
+.removeFromCart {
+  background-color: rgba(255, 0, 0, 0.74);
+  padding: 0.4rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 1px 1px 4px rgb(54, 110, 30), inset 0px 0px 6px white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  width: 50%;
+  color: rgb(12, 1, 23);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.removeFromCart:hover {
+  background-color: rgba(255, 0, 0, 0.998);
+  
+}
